@@ -122,7 +122,7 @@ const downloadMetaMaskReleases = (
 
 type MetaMaskReleases = { downloadUrl: string; filename: string; tag: string };
 const metaMaskReleasesUrl =
-  "https://api.github.com/repos/metamask/metamask-extension/releases";
+  "https://api.github.com/repos/metamask/metamask-extension/releases?page=2";
 const getMetaMaskReleases = (
   version: string,
   flask: boolean
